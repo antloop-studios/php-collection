@@ -1,0 +1,35 @@
+{
+    "type": "library",
+    "version": "1.0.0",
+    "name": "antloop/collection",
+    "description": "Composable Rust based collection and iterator library",
+    "license": "MIT",
+    "homepage": "https://github.com/antloop-studios/php-collection",
+    "authors": [
+        {
+            "name": "Antloop",
+            "homepage": "https://antloop.world/"
+        },
+        {
+            "name": "evolbug",
+            "homepage": "https://evol.blue/"
+        }
+    ],
+    "keywords": [
+        "iterators",
+        "rust",
+        "iterator",
+        "map",
+        "filter",
+        "collection",
+        "composable"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Antloop\\Collection\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    }
+}
